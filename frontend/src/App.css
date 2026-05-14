@@ -1,0 +1,75 @@
+// src/styles.js
+export const roleStyles = {
+  container: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    minHeight: '100vh',
+    backgroundColor: '#f8fafc',
+    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+    padding: '20px',
+  },
+  header: {
+    textAlign: 'center',
+    marginBottom: '40px',
+  },
+  title: {
+    fontSize: '32px',
+    fontWeight: '800',
+    color: '#0f172a',
+    margin: '0',
+  },
+  highlight: {
+    color: '#2563eb',
+  },
+  subtitle: {
+    color: '#64748b',
+    fontSize: '18px',
+    marginTop: '10px',
+  },
+  card: {
+    display: 'flex',
+    alignItems: 'center',
+    backgroundColor: '#ffffff',
+    width: '100%',
+    maxWidth: '420px',
+    padding: '24px',
+    marginBottom: '20px',
+    borderRadius: '20px',
+    border: '2px solid #e2e8f0',
+    cursor: 'pointer',
+    boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05)',
+    transition: 'all 0.3s ease',
+  },
+  iconBox: {
+    fontSize: '28px',
+    padding: '15px',
+    borderRadius: '16px',
+    marginRight: '20px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  cardTitle: {
+    fontSize: '20px',
+    fontWeight: '700',
+    color: '#1e293b',
+    margin: '0',
+  },
+  cardDesc: {
+    fontSize: '15px',
+    color: '#64748b',
+    margin: '6px 0 0 0',
+    lineHeight: '1.4',
+  },
+  footer: {
+    marginTop: 'auto',
+    paddingTop: '50px',
+    fontSize: '12px',
+    color: '#94a3b8',
+    letterSpacing: '1.5px',
+    textTransform: 'uppercase',
+    fontWeight: '600',
+  }
+};

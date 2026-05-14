@@ -1,0 +1,99 @@
+/* src/styles/RoleSelection.css */
+.role-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f8fafc;
+  padding: 20px;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.role-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.role-header h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0;
+}
+
+.role-header span {
+  color: #2563eb; /* LocalSetu Blue */
+}
+
+.role-header p {
+  color: #64748b;
+  font-size: 1.1rem;
+  margin-top: 8px;
+}
+
+.role-card {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 420px;
+  padding: 24px;
+  margin-bottom: 18px;
+  border-radius: 20px;
+  border: 2px solid #e2e8f0;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.role-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Dynamic Border Colors on Hover */
+.role-card.customer:hover {
+  border-color: #2563eb;
+}
+
+.role-card.provider:hover {
+  border-color: #10b981; /* Green for Providers */
+}
+
+.icon-box {
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer .icon-box { background-color: #dbeafe; }
+.provider .icon-box { background-color: #d1fae5; }
+
+.role-content h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0;
+}
+
+.role-content p {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+.role-footer {
+  margin-top: auto;
+  padding: 40px 0;
+  font-size: 0.75rem;
+  color: #94a3b8;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
